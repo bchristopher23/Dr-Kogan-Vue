@@ -213,6 +213,8 @@ body {
                 margin: 0 auto;
                 font-size: 25px;
                 margin-top: 5px;
+                transform: none;
+                top: auto;
 
                  @media (max-width: 385px) {
                     font-size: 24px;
@@ -484,6 +486,14 @@ body {
     }
 
 
+}
+
+.enter-link {
+    right: 2.5em;
+    left: auto;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
 }
 
 .continue-link {

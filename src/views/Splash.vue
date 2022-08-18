@@ -494,6 +494,7 @@ body {
     top: 50%;
     bottom: auto;
     transform: translateY(-50%);
+    font-size: 32px;
 }
 
 .continue-link {

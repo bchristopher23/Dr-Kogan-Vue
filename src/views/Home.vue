@@ -43,12 +43,10 @@ import store from '@/store';
 // Export Component
 export default {
   name: 'Home',
-  metaInfo: {
-    title: 'Official Website Home',
-    titleTemplate: 'Dr. Richard Kogan | %s'
-  },
   metaInfo() {
     return {
+        title: 'Official Website Home',
+        titleTemplate: 'Dr. Richard Kogan | %s',
         link: [
             {rel: 'canonical', href: 'https://richardkogan.com' + this.$route.path}
     ]};

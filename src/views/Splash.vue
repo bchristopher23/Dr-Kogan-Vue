@@ -99,6 +99,13 @@ import router from '../router'
 
 export default {
   name: 'Splash',
+  metaInfo: {
+    title: 'Official Website',
+    titleTemplate: 'Dr. Richard Kogan | %s',
+    link: [
+        {rel: 'canonical', href: 'https://richardkogan.com/'}
+    ]
+  },
   mounted() {
     $(document).keypress(function(e) {
         e.preventDefault();

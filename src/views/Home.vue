@@ -44,8 +44,14 @@ import store from '@/store';
 export default {
   name: 'Home',
   metaInfo: {
-      title: 'Official Website',
-      titleTemplate: 'Dr. Richard Kogan | %s'
+    title: 'Official Website Home',
+    titleTemplate: 'Dr. Richard Kogan | %s'
+  },
+  metaInfo() {
+    return {
+        link: [
+            {rel: 'canonical', href: 'https://richardkogan.com' + this.$route.path}
+    ]};
   },
   components: {
     PageMenu,

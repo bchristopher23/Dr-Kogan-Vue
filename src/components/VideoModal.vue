@@ -37,6 +37,11 @@ export default {
     props: {
         video: ''
     },
+    metaInfo() {
+        return {
+            title: this.$store.state.activeComposer,
+        };
+    },
     mounted() {
 
         setTimeout(function() {

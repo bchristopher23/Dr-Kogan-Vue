@@ -101,7 +101,6 @@ export default {
   name: 'Splash',
   mounted() {
     $(document).keypress(function(e) {
-
         e.preventDefault();
 
         if ( (e.which == 13 || e.which == 32) ) {
@@ -109,8 +108,6 @@ export default {
         }
 
     });
-
-
   },
   methods: {
         handleClick(e) {

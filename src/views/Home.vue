@@ -43,6 +43,10 @@ import store from '@/store';
 // Export Component
 export default {
   name: 'Home',
+  metaInfo: {
+      title: 'Official Website',
+      titleTemplate: 'Dr. Richard Kogan | %s'
+  },
   components: {
     PageMenu,
     PageMenuMobile,

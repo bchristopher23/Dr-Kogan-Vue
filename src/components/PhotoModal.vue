@@ -337,6 +337,9 @@ let slider;
 
 export default {
     name: 'PhotoModal',
+    metaInfo: {
+        title: 'Photos'
+    },
     components: {
         PageMenu,
         ComposerMenu,

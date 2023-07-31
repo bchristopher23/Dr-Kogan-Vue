@@ -108,6 +108,7 @@ export default {
             && this.$route.params.page != 'bio' 
             && this.$route.params.page != 'bookings' 
             && this.$route.params.page != 'performances' 
+            && this.$route.params.page != 'contact' 
             && this.$route.params.page != 'psychiatric-practice' ) {
 
                 this.$store.dispatch( 'updateActiveComposer', '' );
